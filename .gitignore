@@ -5,4 +5,4 @@ venv
 .DS_Store
 *.json
 !tokens.json
-!queries.txt
+!query.txt
