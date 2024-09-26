@@ -111,7 +111,7 @@ class Tomarket:
     def user_login(self, queries):
         url = 'https://api-web.tomarket.ai/tomarket-game/v1/user/login'
         accounts = []
-        for query in query:
+        for query in queries:
             data = json.dumps({'init_data':query,'invite_code':'0000cYQe','from':'','is_bot':False})
             headers = {
                 **self.headers,
